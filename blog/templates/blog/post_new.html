@@ -1,0 +1,6 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+  <h2>Create New Post</h2>
+  {% include 'blog/partials/_post_form.html' with form=form %}
+{% endblock %}
